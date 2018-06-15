@@ -12,25 +12,25 @@
 Below are the ordered steps I took to learn and practice **Swift 4 on Xcode 9**.
 
 
-#####1. [Food Tracker](https://developer.apple.com/library/content/referencelibrary/GettingStarted/DevelopiOSAppsSwift/) by Apple
+####1. [Food Tracker](https://developer.apple.com/library/content/referencelibrary/GettingStarted/DevelopiOSAppsSwift/) by Apple
 "Start developing iOS Apps (Swift)" says Apple. We're going program in a programmingn language developed **by Apple** on an integrated developement environment developed **by Apple**. Hence, why don't we try the creator's tutorial? 
 
 Being said, this tutorial is quite thorough from building a basic UI to persisting data, but few areas are not updated to the latest. Encountering these outdated ones is definitely not pleasing, but trust me. Finding and solving these mismatched ones will bring you to the next level to move onto the next tutorial.
 
 
-#####2. [Tip Calculator](https://www.makeschool.com/online-courses/tutorials/build-a-tip-calculator-in-swift-4/implementing-subviews) by [Make School](https://www.makeschool.com)
+####2. [Tip Calculator](https://www.makeschool.com/online-courses/tutorials/build-a-tip-calculator-in-swift-4/implementing-subviews) by [Make School](https://www.makeschool.com)
 
 "Auto-layout", "relative-positioning", etc all confused me from [Food Tracker](https://developer.apple.com/library/content/referencelibrary/GettingStarted/DevelopiOSAppsSwift/). Yes, I do understand these are important since we have multiple screen sizes. This [Tip Calculator](https://www.makeschool.com/online-courses/tutorials/build-a-tip-calculator-in-swift-4) tutorial from Make School helped me understand the concept and get used to Xcode GUI.  
 
 
-#####3. [JSON & APIs](https://www.makeschool.com/online-courses/tutorials/json-apis-in-swift-4/parsing-json) by [Make School](https://www.makeschool.com)
+####3. [JSON & APIs](https://www.makeschool.com/online-courses/tutorials/json-apis-in-swift-4/parsing-json) by [Make School](https://www.makeschool.com)
 
 You might be wondering like I was: How do I do HTTP network? This [JSON & APIs](https://www.makeschool.com/online-courses/tutorials/json-apis-in-swift-4) tutorial from Make School introduces you a popular library [SwiftyJSON](https://github.com/SwiftyJSON/SwiftyJSON) for parsing JSON and [Alamofire](https://github.com/Alamofire/Alamofire) to call APIs.
 
 The downloadable workspace will let you utilize these libraries without worrying about integrating them.
 
 ---
-#### Integrating Libraries
+### Integrating Libraries
 
 Ok, then how do we integrate libraries? There are multiple ways, but [CocoaPods](https://cocoapods.org) will be explained here for now. 
 
@@ -38,7 +38,7 @@ Integrating libraries to Xcode seemed to be quite complicated due to complex dep
 
 In order to get used to this CocoaPods, I tried to integrate [Google Firebase](https://firebase.google.com) and Apple's iOS Swift 4. However, none of the tutorials nor guides were synced/up-to-date! <small>The reason to choose Firebase is that my team relies on Ember.js and Firebase.</small>
 
-##### Firebase + iOS Swift 4
+#### Firebase + iOS Swift 4
 These are the steps I took to integrate *successfully*: 
 
 * Create Xcode project
@@ -87,7 +87,7 @@ pod 'Alamofire', '~> 4.7'
 
 ---
 
-#####4. [Build Notes](https://www.makeschool.com/online-courses/tutorials/learn-how-to-build-make-school-notes-in-swift-4/) by [Make School](https://www.makeschool.com/) 
+####4. [Build Notes](https://www.makeschool.com/online-courses/tutorials/learn-how-to-build-make-school-notes-in-swift-4/) by [Make School](https://www.makeschool.com/) 
 
 This tutorial might seem like a duplicate of Apple's Food Tracker tutorial. I found this tutorial helpful as a reviewing tool. While reviewing, *navigation between view controllers* made more sense from this tutorial, and this seems to introduce a different way to manage core data. 
 
@@ -101,12 +101,12 @@ This tutorial walks you to build an **Instagram-like app** with Google Firebase!
 I believe I'm 90% completion to this tutoria, so please stay tuned for the summary.
 
 ---
-### Others
+## Others
 <small>The below are the tools I used to create this README.</small>
 
-###### Marked
+##### Marked
 [Marked2](http://marked2app.com) is a previewer app for Markdown files. *Marked* is used with Terminal to review everytime this README is saved. 
 
-###### Markdown Cheatsheet
+##### Markdown Cheatsheet
 Special thanks to [Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet). This website is treated as my bible. 
 

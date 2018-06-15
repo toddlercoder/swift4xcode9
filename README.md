@@ -97,9 +97,9 @@ This tutorial might seem like a duplicate of Apple's Food Tracker tutorial. I fo
 
 #### 5. [Build a Photo Sharing App](https://www.makeschool.com/online-courses/tutorials/build-a-photo-sharing-app-9f153781-8df0-4909-8162-bb3b3a2f7a81/) by [Make School](https://www.makeschool.com/)
 
-This tutorial walks you to build an **Instagram-like app** with Google Firebase!This could be considered a long one, but I'd say it's the most complete tutorial. Warning: This tutorial is quite long but worth a try. 
+This tutorial walks you to build an **Instagram-like app** with Google Firebase! This could be considered a long one, but I'd say it's the most complete tutorial. Warning: This tutorial is quite long but worth a try. 
 
-Let's say we've been trying to get used Xcode GUI and to how Swift is structured from storyboard, controllers, to extensions. This tutorial not only taught me how to manage user authentication and connect to Firebase but also allowed me to dig into few more details such as [Control Flow (guard)](https://docs.swift.org/swift-book/LanguageGuide/ControlFlow.html), [Automatic Reference Counting](https://docs.swift.org/swift-book/LanguageGuide/AutomaticReferenceCounting.html), [explicit/implicit optionals](https://mikeash.com/pyblog/friday-qa-2014-06-20-interesting-swift-features.html), etc. If you're new to mobile development like me, these are very common and important to know.
+Let's say we've been trying to get used Xcode GUI and to how Swift is structured from storyboard, controllers, to extensions. This tutorial not only taught me how to manage user authentication and connect to Firebase but also allowed me to dig into few more details such as [Control Flow (guard)](https://docs.swift.org/swift-book/LanguageGuide/ControlFlow.html), [Automatic Reference Counting](https://docs.swift.org/swift-book/LanguageGuide/AutomaticReferenceCounting.html), [explicit/implicit optionals](https://mikeash.com/pyblog/friday-qa-2014-06-20-interesting-swift-features.html), etc. If you're new to mobile development like me, these are common and very important to know.
 
 Another reason this tutorial feels complete is that the instructor guides you on good code structure. You'll end up with multiple group folders and even with a Constants.swift file which helps to encounter less typo issues. 
 
